@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicoding Indonesia - Portofolio dan Media Sosial</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer img {
+            height: 50px;
+            width: 50px;
+            margin: 0 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dicoding Indonesia</h1>
+    <h2>Gudangnya developer handal</h2>
+    <p>Mencetak banyak lulusan terbaik khususnya para developer.</p>
+    <img src="rpppl.jpg" height="300" width="300" alt="Gambar RPL">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#register">Register</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <main>
+        <section id="about" class="section">
+            <h1>Profesi</h1>
+            <h2>Junior Content Writer at Dicoding</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt inventore perspiciatis debitis doloribus ullam minima culpa voluptatem. Repellendus, option.</p>
+            <a href="" class="action-btn">Profile Saya</a>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>CV Khairun Nisa Nazhifah</h2>
+            <div class="profile">
+                <img src="faxhip.jpg" height="400" width="300" alt="Foto ">
+                <h1>Khairun Nisa Nazhifah</h1>
+                <p class="title">Web Developer</p>
+            </div>
+            <div class="contact">
+                <p><strong>Email:</strong> bungaaliliiiyuuu@gmail.com</p>
+                <p><strong>Telepon:</strong> 088221391745</p>
+                <p><strong>Alamat:</strong> Soronanggan, Panjangrejo, Pundong, Bantul</p>
+            </div>
+            <div class="section">
+                <h2>Pengalaman Kerja</h2>
+                <p><strong>Web Developer</strong> - Perusahaan Xuntos (2024 - Sekarang)</p>
+                <p>Mengembangkan dan merawat website menggunakan HTML, CSS, JS, PHP.</p>
+            </div>
+            <div class="section">
+                <h2>Pendidikan</h2>
+                <ul>
+                    <li>S1 Teknik Informatika, Universitas Contoh, 2027 - 2030</li>
+                    <li>SMK Negeri 1 Sanden, RPL, 2024 - 2027</li>
+                    <li>SMP 2 Pundong, 2021 - 2024</li>
+                    <li>MI Maulana Maghribi, 2015 - 2021</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Keahlian</h2>
+                <ul>
+                    <li>PHP & MySQL, Laravel</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Bahasa</h2>
+                <ul>
+                    <li>Bahasa Indonesia (Lancar)</li>
+                    <li>Bahasa Inggris (Menengah)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="login" class="section">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button class="btn">Login</button>
+        </section>
+
+        <section id="register" class="section">
+            <h2>Register</h2>
+            <div class="form-group">
+                <label for="newUsername">Username:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+            </div>
+            <div class="form-group">
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Konfirmasi Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <button class="btn">Register</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <li><img src="iggg.jpg" height="50" width="50" alt="Instagram"><a href="#">Instagram</a></li> 
+            <li><img src="ttk.jpg" height="50" width="50" alt="Tiktok"><a href="#">Tiktok</a></li>
+        </ul>
+    </footer>
+</div>
+
+</body>
+</html>
